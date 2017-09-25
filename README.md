@@ -1,6 +1,6 @@
-# React-Internationalisation
+# React-Internationalization
 
-Internationalisation - often referred to as 'i18n' - is more than just translating text site-wide. Localised currency formats can break coding, plurals can change sentence structure, and long words in languages like Russian can cause issues with layouts.
+Internationalization - often referred to as 'i18n' - is more than just translating text site-wide. Localised currency formats can break coding, plurals can change sentence structure, and long words in languages like Russian can cause issues with layouts.
 
 Yahoo has created a library called 'React-Intl', which uses the i18n API through its own set of components. By providing locale data at the root of the application, these components will render appropriate text based on the language of the browser.
 
@@ -68,14 +68,14 @@ There are two methods to download the repository.
 Clone this repository, install dependencies, then run the project with the following:
 
 ```
-> git clone git@github.com:artprofi91/React-Internationalisation.git
-> cd React-Internationalisation
+> git clone git@github.com:artprofi91/React-Internationalization.git
+> cd React-Internationalization
 > npm install   or   yarn install
 > npm start   or   yarn start
 ```
 
 #### Not Familiar with Git?
-Click [here](https://github.com/artprofi91/React-Internationalisation) then download the .zip file. Extract the contents of the zip file, then open your terminal, change to the project directory and:
+Click [here](https://github.com/artprofi91/React-Internationalization) then download the .zip file. Extract the contents of the zip file, then open your terminal, change to the project directory and:
 
 ```
 > npm install   or   yarn install
