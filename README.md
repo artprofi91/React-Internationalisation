@@ -8,7 +8,9 @@ I created a basic online store that sells tours and events to London. I localise
 
 There are a lot of things that can change across different languages. It is possible for apps to deal with the bigger things like date formatting manually, but more delicate aspects like plurals and relative time values can prove tricky.
 
-React-Intl can support all these adjustments automatically, but as they can be quite large they need to be selectively imported when needed.
+React-Intl can support all these adjustments automatically, but as they can be quite large they need to be selectively imported when needed. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations.
+
+## Import supported locales
 
 Import the locale data for the languages - English, French, and Spanish.
 ```
@@ -18,6 +20,30 @@ import fr from "react-intl/locale-data/fr";
 import es from "react-intl/locale-data/es";
 addLocaleData([...en, ...fr, ...es]);
 ```
+### Project Installation
+
+There are two methods to download the repository.
+
+#### Method I: Familiar with Git?
+Clone this repository, install dependencies, then run the project with the following:
+
+```
+> git clone git@github.com:artprofi91/React-Internationalisation.git
+> cd React-Internationalisation
+> npm install   or   yarn install
+> npm start   or   yarn start
+```
+
+#### Not Familiar with Git?
+Click [here](https://github.com/artprofi91/React-Internationalisation) then download the .zip file. Extract the contents of the zip file, then open your terminal, change to the project directory and:
+
+```
+> npm install   or   yarn install
+> npm start   or   yarn start
+```
+
+#### Project will run on:
+Open the browser go to localhost:3000
 
 I built this app with help of ([Web Designer Magazine Tutorial](https://www.myfavouritemagazines.co.uk/design/web-designer-magazine-subscription/)).
 
