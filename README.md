@@ -20,6 +20,31 @@ import fr from "react-intl/locale-data/fr";
 import es from "react-intl/locale-data/es";
 addLocaleData([...en, ...fr, ...es]);
 ```
+
+## Fetch translation messages
+
+The way React-Intl translates phrases is through the use of a 'message' variable, which contains a set of key-value pairs matching unique identifiers to translated blocks of text.
+
+```
+function getTranslations(languageCode) {
+  const code = languageCode.toLowerCase();
+  const language = getLanguage(code);
+  switch(language) {
+    case 'en':
+      return en;
+    case 'fr':
+      return fr;
+    case 'es':
+      return es;
+    default:
+      // Default to English
+      return en;
+  }
+}
+
+const messages = getTranslations(language);
+```
+
 ### Project Installation
 
 There are two methods to download the repository.
