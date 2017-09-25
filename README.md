@@ -44,6 +44,19 @@ function getTranslations(languageCode) {
 
 const messages = getTranslations(language);
 ```
+## Formatters 
+
+React-Int provides a selection of special components that can be used to place formatted text on the screen. 
+
+One of these is *FormattedNumber*, which formats numeric values, including currency.
+
+Like numbers, dates also have their own component - *FormattedDate* - that deals with the complex formatting involved with differing locales.
+
+*FormattedMessage* provides translated strings.
+
+```
+import { FormattedMessage, FormattedNumber, FormattedDate } from "react-intl";
+```
 
 ### Project Installation
 
