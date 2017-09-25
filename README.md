@@ -6,6 +6,8 @@ Yahoo has created a library called 'React-Intl', which uses the i18n API through
 
 I created a basic online store that sells tours and events to London. I localised information about the tours using the tools 'React-Intl' provides.
 
+![1](https://user-images.githubusercontent.com/28790452/30825467-b855ddc2-a1f8-11e7-8a8d-1dedaee6ba0b.gif)
+
 There are a lot of things that can change across different languages. It is possible for apps to deal with the bigger things like date formatting manually, but more delicate aspects like plurals and relative time values can prove tricky.
 
 React-Intl can support all these adjustments automatically, but as they can be quite large they need to be selectively imported when needed. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations.
